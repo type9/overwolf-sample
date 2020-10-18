@@ -73,7 +73,7 @@
         "in_game_only": true,
         "focus_game_takeover": "ReleaseOnHidden",
         "focus_game_takeover_release_hotkey": "sample_app_showhide",
-        "transparent": true,
+        "transparent": false,
         "resizable": false,
         "size": {
           "width": 175,
