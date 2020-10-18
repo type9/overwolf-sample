@@ -3,9 +3,9 @@
   "type": "WebApp",
   "meta": {
     "name": "LolTracker",
-    "version": "1.1.0",
+    "version": "0.01",
     "minimum-overwolf-version": "0.120.0",
-    "author": "Overwolf",
+    "author": "Type9",
     "icon": "IconMouseOver.png",
     "icon_gray": "IconMouseNormal.png",
     "launcher_icon": "desktop-icon.ico",
