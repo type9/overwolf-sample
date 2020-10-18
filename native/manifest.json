@@ -23,13 +23,13 @@
   "data": {
     "game_targeting": {
       "type": "dedicated",
-      "game_ids": [21216]
+      "game_ids": [5426]
     },
     "launch_events": [
       {
         "event": "GameLaunch",
         "event_data": {
-          "game_ids": [21216]
+          "game_ids": [5426]
         },
         "start_minimized": true
       }
@@ -38,10 +38,10 @@
       "sample_app_showhide": {
         "title": "Show/Hide In-Game Window",
         "action-type": "toggle",
-        "default": "Ctrl+F"
+        "default": "Tab"
       }
     },
-    "game_events": [21216],
+    "game_events": [5426],
     "start_window": "background",
     "windows": {
       "background": {
@@ -68,24 +68,24 @@
         },
         "desktop_only": true
       },
-      "in_game": {
-        "file": "windows/in-game/in-game.html",
+      "spell-tracker": {
+        "file": "windows/spell-tracker/spell-tracker.html",
         "in_game_only": true,
         "focus_game_takeover": "ReleaseOnHidden",
         "focus_game_takeover_release_hotkey": "sample_app_showhide",
         "transparent": true,
-        "resizable": true,
+        "resizable": false,
         "size": {
-          "width": 1212,
-          "height": 699
+          "width": 175,
+          "height": 500
         },
         "min_size": {
-          "width": 1212,
-          "height": 699
+          "width": 175,
+          "height": 500
         },
         "max_size": {
-          "width": 1212,
-          "height": 699
+          "width": 175,
+          "height": 500
         }
       }
     },
